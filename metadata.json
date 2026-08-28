@@ -1,0 +1,6 @@
+{
+  "name": "Pôle de Dons",
+  "description": "Plateforme d'attribution et de redistribution solidaire de dons universels de valeur avec vitrine interactive, suivi d'instruction en temps réel, messagerie d'accompagnement et outils d'administration.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

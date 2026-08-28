@@ -1,0 +1,11 @@
+--- src/App.tsx
++++ src/App.tsx
+@@ -1030,5 +1030,3 @@
+ 
+-          {activeTab === "contact" {activeTab === "contact" && <ContactPage />}{activeTab === "contact" && <ContactPage />} <ContactPage />}
+-          {activeTab === "privacy" {activeTab === "contact" && <ContactPage />}{activeTab === "contact" && <ContactPage />} <PrivacyPolicy />}
+-          {activeTab === "terms" {activeTab === "contact" && <ContactPage />}{activeTab === "contact" && <ContactPage />} <TermsOfUse />}
++          {activeTab === "contact" && <ContactPage />}
++          {activeTab === "privacy" && <PrivacyPolicy />}
++          {activeTab === "terms" && <TermsOfUse />}
+ 
