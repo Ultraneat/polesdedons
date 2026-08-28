@@ -1800,7 +1800,7 @@ export default function DonationCatalog({
                 {isUploadingAttachment && (
                   <div className="py-1 px-2.5 bg-amber-50 text-amber-800 border border-amber-100 rounded-lg text-[10px] flex items-center gap-1.5 font-semibold">
                     <Loader2 className="h-3 w-3 animate-spin text-amber-600" />
-                    Traitement de la pièce jointe...
+                    Synchronisation du fichier en cours...
                   </div>
                 )}
 

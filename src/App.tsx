@@ -1484,7 +1484,7 @@ export default function App() {
     return (
       <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center space-y-3" id="loading-spinner-root">
         <Loader2 className="h-8 w-8 text-indigo-600 animate-spin" />
-        <p className="text-slate-500 text-xs font-semibold tracking-wider uppercase">Chargement de la Plateforme d'Attribution...</p>
+        <p className="text-slate-500 text-xs font-semibold tracking-wider uppercase">Initialisation du Pôle de Dons & Services...</p>
       </div>
     );
   }
